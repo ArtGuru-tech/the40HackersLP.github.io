@@ -1,3 +1,14 @@
+/* Color variable */
+:root {
+    --primary-bg-color: ;
+    --primary-headline-color: #0d0d0d;
+    --primary-p-color: #2a2a2a;
+    --primary-btn-color: #27AE60;
+    --secondary-btn-color: #222A68; 
+    --primary-btn-text-color: #0d0d0d;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 
 /* New Times Roman */
@@ -106,6 +117,10 @@ img {
     max-width: 100%;
     height: auto;
 }
+/* Custom temporary styles */ 
+.hidden-class {
+    visibility: hidden;
+}
 /* header */
 .navbar{
     padding: 0;
@@ -160,7 +175,7 @@ header {
     font-weight: bold;
     font-style: italic;
     font-size: 16px;
-    background: #27AE60;
+    background: var(--primary-btn-color);
     border-radius: 10px;
     padding: 0 24px;
     height: 38px;
@@ -235,12 +250,12 @@ header {
     font-size: 16px;
     line-height: 18px;
     color: #FFFBFF;
-    background: #222A68;
+    background: var(--primary-btn-color);
     border-radius: 10px;
     padding: 11px 22px;
 }
 .hero-section .btn:hover{
-    background-color: #27AE60;
+    background-color: var(--secondary-btn-color);
     color: #fff;
 }
 /* hero end */
