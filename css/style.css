@@ -2,7 +2,7 @@
 :root {
     --primary-bg-color: ;
     --primary-headline-color: #0d0d0d;
-    --primary-p-color: #2a2a2a;
+    --primary-p-color: #fff;
     --primary-btn-color: #27AE60;
     --secondary-btn-color: #222A68; 
     --primary-btn-text-color: #0d0d0d;
@@ -83,6 +83,7 @@ a:focus, a:hover {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6 {
     margin-bottom: 0;
     font-family: 'Times New Roman';
+    color: var(--primary-p-color);
 }
 a {
     transition: all ease-in-out 0.5s;
